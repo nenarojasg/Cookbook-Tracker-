@@ -486,7 +486,7 @@
 
     const STORAGE_KEY = 'cookbook-tracker-recipes-v1';
     const STORAGE_BACKUP_KEY = 'cookbook-tracker-recipes-backup-v1';
-    const DEFAULT_CATEGORIES = ['Chicken', 'Pasta', 'Rice', 'Fish and Seafood', 'Eggs', 'Desserts', 'Pork', 'Beef', 'Almost Vegetarian', 'Tunisian', 'Spanish', 'Vegetarian', 'Soup'];
+    const DEFAULT_CATEGORIES = ['Chicken', 'Pasta', 'Rice', 'Fish and Seafood', 'Eggs', 'Desserts', 'Pork', 'Beef', 'Almost Vegetarian', 'Tunisian', 'Spanish', 'Vegetarian', 'Soup', 'Tuna', 'Salad'];
     const defaultRecipes = [
       { id: crypto.randomUUID(), name: 'Creamy Tuscan Chicken', categories: ['Chicken'], lastEaten: new Date(Date.now() - 5 * 86400000).toISOString().slice(0,10), notes: 'Best with spinach and sun-dried tomatoes.' },
       { id: crypto.randomUUID(), name: 'Mushroom Tagliatelle', categories: ['Pasta'], lastEaten: new Date(Date.now() - 12 * 86400000).toISOString().slice(0,10), notes: 'Add parsley and plenty of black pepper.' },
